@@ -1,0 +1,17 @@
+{
+    "name": "kokiska/product_packing_params",
+    "description": "Knihovna pro obecnou praci s parametry k baleni produktu",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Kokiska\\ProductPackingParams\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Martin Kvěš",
+            "email": "martin.kves@kokiska.cz"
+        }
+    ],
+    "require": {}
+}
