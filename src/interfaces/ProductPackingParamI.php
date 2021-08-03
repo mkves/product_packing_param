@@ -21,8 +21,6 @@ interface ProductPackingParamI {
 
     public function getCanBePackedInCarton();
 
-    public function getPackage();
-
     public function getIsStackable();
 
     public function getPackageVariations();
@@ -38,8 +36,6 @@ interface ProductPackingParamI {
     public function setPackedInCarton($packedInCarton): void;
 
     public function setCanBePackedInCarton($canBePackedInCarton): void;
-
-    public function setPackage($package): void;
 
     public function setIsStackable($isStackable): void;
 
