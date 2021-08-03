@@ -9,20 +9,44 @@ namespace Kokiska\ProductPackingParams\interfaces;
  */
 interface ProductPackingParamI {
 
+    /**
+     * maximalni rozmer v cm
+     */
     public function getMaximalDimension();
 
+    /**
+     * stredni rozmer v cm
+     */
     public function getMiddleDimension();
 
+    /**
+     * nejmensi rozmer v cm
+     */
     public function getMinimalDimension();
 
+    /**
+     * nejmensi rozmer v gramech
+     */
     public function getWeightInGrams();
 
+    /**
+     * je produkt zabalen v kartonu?
+     */
     public function getPackedInCarton();
 
+    /**
+     * lze ho zabalit do kartonu?
+     */
     public function getCanBePackedInCarton();
 
+    /**
+     * je stohovatelny?
+     */
     public function getIsStackable();
 
+    /**
+     * mozne zpusoby zabaleni
+     */
     public function getPackageVariations();
 
     public function setMaximalDimension($maximalDimension): void;
